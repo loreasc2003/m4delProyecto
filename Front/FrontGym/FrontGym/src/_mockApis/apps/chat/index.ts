@@ -129,7 +129,7 @@ const ChatData: ChatType[] = [
     },
     {
         id: 3,
-        name: 'David Smith',
+        name: 'David Sanchez',
         status: 'busy',
         thumb: user3,
         recent: false,
@@ -225,7 +225,7 @@ const ChatData: ChatType[] = [
     },
     {
         id: 5,
-        name: 'Robert Smith',
+        name: 'Roberto Smith',
         status: 'online',
         thumb: user5,
         recent: true,
@@ -280,7 +280,7 @@ const ChatData: ChatType[] = [
     },
     {
         id: 6,
-        name: 'Joseph Sarah',
+        name: 'Jose Juarez',
         status: 'busy',
         thumb: user1,
         recent: false,
@@ -325,7 +325,7 @@ const ChatData: ChatType[] = [
     },
     {
         id: 7,
-        name: 'Thomas Smith',
+        name: 'Carlos Ortega',
         status: 'away',
         thumb: user2,
         recent: true,
@@ -369,7 +369,7 @@ const ChatData: ChatType[] = [
     },
     {
         id: 8,
-        name: 'David Elizabeth',
+        name: 'David Hernandez',
         status: 'offline',
         thumb: user3,
         recent: false,
@@ -414,7 +414,7 @@ const ChatData: ChatType[] = [
     },
     {
         id: 9,
-        name: 'Charles Martha',
+        name: 'Carlonia Nicol',
         status: 'online',
         thumb: user4,
         recent: false,

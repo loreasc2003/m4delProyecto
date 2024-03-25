@@ -21,7 +21,7 @@ const getCart = computed(() => {
 <template>
     <v-row class="mt-5">
         <v-col cols="12" lg="9">
-            <h5 class="text-h5 mb-4">Delivery Options</h5>
+            <h5 class="text-h5 mb-4">Opciones de envío</h5>
             <v-radio-group v-model="delivery" inline>
                 <v-row>
                     <v-col cols="12 " sm="6">
@@ -29,8 +29,8 @@ const getCart = computed(() => {
                             <v-radio value="free" color="primary" class="label-op-1">
                                 <template v-slot:label>
                                     <div>
-                                        <h6 class="text-h6 mb-1">Standard Delivery (Free)</h6>
-                                        <span class="d-block text-subtitle-1">Delivery on Monday 8 Jun</span>
+                                        <h6 class="text-h6 mb-1">Entrega Standard (Gratis)</h6>
+                                        <span class="d-block text-subtitle-1">Envio el 30 de Marzo</span>
                                     </div>
                                 </template>
                             </v-radio>
@@ -41,8 +41,8 @@ const getCart = computed(() => {
                             <v-radio value="paid" color="primary" class="label-op-1">
                                 <template v-slot:label>
                                     <div>
-                                        <h6 class="text-h6 mb-1">Fast Delivery ($5.00)</h6>
-                                        <span class="d-block text-subtitle-1">Delivery on Friday 5 Jun</span>
+                                        <h6 class="text-h6 mb-1">Entrega rápida ($120)</h6>
+                                        <span class="d-block text-subtitle-1">Entrega el 26 de Marzo</span>
                                     </div>
                                 </template>
                             </v-radio>
@@ -50,7 +50,7 @@ const getCart = computed(() => {
                     </v-col>
                 </v-row>
             </v-radio-group>
-            <h5 class="text-h5 mb-4">Payment Options</h5>
+            <h5 class="text-h5 mb-4">Opciones de pago</h5>
             <v-row>
                 <v-col cols="12" lg="7">
                     <v-radio-group v-model="payment">
@@ -59,9 +59,9 @@ const getCart = computed(() => {
                                 <template v-slot:label>
                                     <div class="d-flex align-center w-100">
                                         <div>
-                                            <h6 class="text-h6 mb-1">Pay with PayPal</h6>
+                                            <h6 class="text-h6 mb-1">Pagar con PayPal</h6>
                                             <span class="d-block text-subtitle-1 text-wrap"
-                                                >You will be redirected to PayPal website to complete your purchase securely.</span
+                                                >Serás redirigido al sitio web de PayPal para completar tu compra de forma segura.</span
                                             >
                                         </div>
                                         <div class="ml-auto flex-shrink-0">
@@ -77,9 +77,9 @@ const getCart = computed(() => {
                                 <template v-slot:label>
                                     <div class="d-flex align-center w-100">
                                         <div>
-                                            <h6 class="text-h6 mb-1">Credit/Debit Card</h6>
+                                            <h6 class="text-h6 mb-1">Tarjeta Credito/Debito</h6>
                                             <span class="d-block text-subtitle-1 text-wrap"
-                                                >We support Mastercard, Visa, Discover and Stripe.</span
+                                                >Admitimos Mastercard, Visa, Discover y Stripe.</span
                                             >
                                         </div>
                                         <div class="ml-auto flex-shrink-0">
@@ -94,10 +94,10 @@ const getCart = computed(() => {
                         <v-card elevation="0" class="mb-6 " variant="outlined" v-if="payment == 'credit'">
                             <v-card-item class="py-3">
                                 <div class="d-flex align-center justify-space-between">
-                                    <v-card-title class="text-subtitle-1">Add New Card</v-card-title>
+                                    <v-card-title class="text-subtitle-1">Agregar nueva tarjeta</v-card-title>
                                     <v-btn variant="flat" color="primary" @click="dialog = true">
                                         <PlusIcon stroke-width="1.5" size="20" />
-                                        Add Card
+                                        Agregar tarjeta
                                     </v-btn>
                                 </div>
                             </v-card-item>
@@ -114,11 +114,11 @@ const getCart = computed(() => {
                                                 <div class="d-flex align-center justify-space-between mt-3">
                                                     <div>
                                                         <span class="text-medium-emphasis text-white text-subtitle-2 opacity-50"
-                                                            >Expire Date</span
+                                                            >Fecha de expiración</span
                                                         >
                                                         <span
                                                             class="text-medium-emphasis text-white text-subtitle-2 opacity-50 mt-1 d-block"
-                                                            >05/24</span
+                                                            >05/27</span
                                                         >
                                                     </div>
                                                     <div>
@@ -142,11 +142,11 @@ const getCart = computed(() => {
                                                 <div class="d-flex align-center justify-space-between mt-3">
                                                     <div>
                                                         <span class="text-medium-emphasis text-white text-subtitle-2 opacity-50"
-                                                            >Expire Date</span
+                                                            >Fecha de expiración</span
                                                         >
                                                         <span
                                                             class="text-medium-emphasis text-white text-subtitle-2 opacity-50 mt-1 d-block"
-                                                            >05/24</span
+                                                            >05/28</span
                                                         >
                                                     </div>
                                                     <div>
@@ -169,9 +169,9 @@ const getCart = computed(() => {
                                 <template v-slot:label>
                                     <div class="d-flex align-center w-100">
                                         <div>
-                                            <h6 class="text-h6 mb-1">Cash on Delivery</h6>
+                                            <h6 class="text-h6 mb-1">Regresar reembolso</h6>
                                             <span class="d-block text-subtitle-1 text-wrap"
-                                                >Pay with cash when your order is delivered.</span
+                                                >Pague en efectivo cuando se entregue su pedido.</span
                                             >
                                         </div>
                                     </div>
@@ -192,7 +192,7 @@ const getCart = computed(() => {
             </v-row>
         </v-col>
         <v-col lg="3" cols="12">
-            <h5 class="text-h5">Cart Item</h5>
+            <h5 class="text-h5">Artículos en el carrito</h5>
             <div class="d-flex align-center gap-2 my-3" v-for="item in getCart" :key="item.name">
                 <img alt="product" class="rounded-md custom-img-box" :src="item.image" />
                 <div class="ma-2">

@@ -11,14 +11,14 @@ const getCart = computed(() => {
 </script>
 <template>
     <div v-if="getCart.length > 0">
-        <h5 class="text-h5 my-8">Cart Item ({{ getCart.length }})</h5>
+        <h5 class="text-h5 my-8">Artículos en el carrito ({{ getCart.length }})</h5>
         <v-divider />
         <v-table>
             <thead>
                 <tr>
-                    <th class="text-left text-subtitle-1 font-weight-semibold">Product</th>
-                    <th class="text-left text-subtitle-1 font-weight-semibold">Price</th>
-                    <th class="text-left text-subtitle-1 font-weight-semibold">Quantity</th>
+                    <th class="text-left text-subtitle-1 font-weight-semibold">Producto</th>
+                    <th class="text-left text-subtitle-1 font-weight-semibold">Precio</th>
+                    <th class="text-left text-subtitle-1 font-weight-semibold">Cantidad</th>
                     <th class="text-left text-subtitle-1 font-weight-semibold">Total</th>
                     <th class="text-right"></th>
                 </tr>
@@ -30,7 +30,7 @@ const getCart = computed(() => {
                             <img alt="product" class="rounded-md custom-img-box" :src="item.image" />
                             <div class="ma-2">
                                 <h6 class="text-h6">{{ item.name }}</h6>
-                                <span class="text-subtitle-2">size: 8 | Color: Dark Red</span>
+                                <span class="text-subtitle-2">Piezas: 8 | Color: Azul</span>
                             </div>
                         </div>
                     </td>

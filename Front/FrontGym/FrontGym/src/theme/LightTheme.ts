@@ -201,7 +201,7 @@ const ORANGE_THEME: ThemeTypes = {
         borderColor: '#e5eaef',
         inputBorder: '#DFE5EF',
         containerBg: '#ffffff',
-        background: '#f6f6f6',
+        background: '#000000',
         hoverColor: '#F32020',
         surface: '#fff',
         'on-surface-variant': '#fff',

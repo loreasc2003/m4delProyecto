@@ -11,7 +11,7 @@ const textcvv = ref('');
     <v-card>
         <v-card-item class="py-4">
             <div class="d-flex align-center justify-space-between">
-                <h4 class="text-18 font-weight-medium">Add Payment Card</h4>
+                <h4 class="text-18 font-weight-medium">Agregar tarjeta crédito/debito</h4>
                 <v-btn color="transparent" variant="flat" icon @click="$emit('dialogcard')">
                     <XIcon stroke-width="1.5" width="20" />
                 </v-btn>
@@ -25,12 +25,12 @@ const textcvv = ref('');
             </v-radio-group>
             <v-row>
                 <v-col cols="12">
-                    <v-text-field v-model="textbank" label="Bank" required color="primary" variant="outlined" hide-details></v-text-field>
+                    <v-text-field v-model="textbank" label="Banco" required color="primary" variant="outlined" hide-details></v-text-field>
                 </v-col>
                 <v-col cols="12">
                     <v-text-field
                         v-model="textcno"
-                        label="Card Number"
+                        label="Numero de tarjeta"
                         required
                         color="primary"
                         variant="outlined"
@@ -40,7 +40,7 @@ const textcvv = ref('');
                 <v-col cols="12" sm="6">
                     <v-text-field
                         v-model="textdate"
-                        label="Expiry Date"
+                        label="Fecha de expiración"
                         required
                         color="primary"
                         variant="outlined"
@@ -52,14 +52,14 @@ const textcvv = ref('');
                 </v-col>
             </v-row>
             <v-radio-group inline class="mt-4">
-                <v-radio label="Credit Card" color="primary" value="1"></v-radio>
-                <v-radio label="Debit" color="secondary" value="2"></v-radio>
-                <v-radio label="Net Banking" color="secondary" value="3"></v-radio>
+                <v-radio label="Tarjeta de crédito" color="primary" value="1"></v-radio>
+                <v-radio label="Debito" color="secondary" value="2"></v-radio>
+                <v-radio label="Banca neta" color="secondary" value="3"></v-radio>
             </v-radio-group>
         </v-card-text>
         <v-card-actions class="justify-end">
-            <v-btn color="error" @click="$emit('dialogcard')">Cancel</v-btn>
-            <v-btn color="primary" variant="flat" @click="$emit('dialogcard')">Submit</v-btn>
+            <v-btn color="error" @click="$emit('dialogcard')">Cancelar</v-btn>
+            <v-btn color="primary" variant="flat" @click="$emit('dialogcard')">Aceptar</v-btn>
         </v-card-actions>
     </v-card>
 </template>
