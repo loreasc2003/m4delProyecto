@@ -16,7 +16,7 @@ const rules: any = ref({
         <v-card>
             <v-card-text>
                 <div class="d-flex justify-space-between">
-                    <h3 class="text-h3">Add Billing Address</h3>
+                    <h3 class="text-h3">Agregar dirección de facturación</h3>
                     <v-btn icon @click="dialog = false"  size="small" flat><XIcon size="16" /></v-btn>
                 </div>
             </v-card-text>
@@ -28,7 +28,7 @@ const rules: any = ref({
                             <v-text-field
                                 v-model="name"
                                 :rules="[rules.required, rules.name]"
-                                label="First Name"
+                                label="Primer nombre"
                                 variant="outlined"
                                 hide-details="auto"
                                 :color="name.length > 2 ? 'success' : 'primary'"
@@ -36,15 +36,15 @@ const rules: any = ref({
                         </v-col>
                         <v-col cols="12" lg="6">
                             <v-radio-group v-model="inline" inline hide-details="auto">
-                                <v-radio label="Home" value="home" color="primary"></v-radio>
-                                <v-radio label="Office" value="office" color="secondary"></v-radio>
+                                <v-radio label="Hogar" value="home" color="primary"></v-radio>
+                                <v-radio label="Oficina" value="office" color="secondary"></v-radio>
                             </v-radio-group>
                         </v-col>
                         <v-col cols="12" lg="12">
                             <v-text-field
                                 v-model="name"
                                 :rules="[rules.required, rules.name]"
-                                label="Building No"
+                                label="No. de edificio"
                                 hide-details="auto"
                                 variant="outlined"
                                 :color="name.length > 2 ? 'success' : 'primary'"
@@ -54,7 +54,7 @@ const rules: any = ref({
                             <v-text-field
                                 v-model="name"
                                 :rules="[rules.required, rules.name]"
-                                label="Street"
+                                label="Calle"
                                 variant="outlined"
                                 hide-details="auto"
                                 :color="name.length > 2 ? 'success' : 'primary'"
@@ -64,7 +64,7 @@ const rules: any = ref({
                             <v-text-field
                                 v-model="name"
                                 :rules="[rules.required, rules.name]"
-                                label="City"
+                                label="Ciudad"
                                 variant="outlined"
                                 hide-details="auto"
                                 :color="name.length > 2 ? 'success' : 'primary'"
@@ -74,7 +74,7 @@ const rules: any = ref({
                             <v-text-field
                                 v-model="name"
                                 :rules="[rules.required, rules.name]"
-                                label="State"
+                                label="Estado"
                                 variant="outlined"
                                 hide-details="auto"
                                 :color="name.length > 2 ? 'success' : 'primary'"
@@ -84,7 +84,7 @@ const rules: any = ref({
                             <v-text-field
                                 v-model="name"
                                 :rules="[rules.required, rules.name]"
-                                label="Country"
+                                label="País"
                                 variant="outlined"
                                 hide-details="auto"
                                 :color="name.length > 2 ? 'success' : 'primary'"
@@ -94,7 +94,7 @@ const rules: any = ref({
                             <v-text-field
                                 v-model="name"
                                 :rules="[rules.required, rules.name]"
-                                label="Area code"
+                                label="C.P"
                                 variant="outlined"
                                 hide-details="auto"
                                 :color="name.length > 2 ? 'success' : 'primary'"
@@ -104,7 +104,7 @@ const rules: any = ref({
                             <v-text-field
                                 v-model="name"
                                 :rules="[rules.required, rules.name]"
-                                label="Contact"
+                                label="Contacto"
                                 variant="outlined"
                                 hide-details="auto"
                                 :color="name.length > 2 ? 'success' : 'primary'"
@@ -114,8 +114,8 @@ const rules: any = ref({
                             <v-switch v-model="isdefault" label="Default"></v-switch>
                         </v-col>
                         <v-col cols="12" lg="12" class="text-right">
-                            <v-btn color="error" type="submit" variant="text">Cancel</v-btn>
-                            <v-btn color="primary" type="submit">Submit</v-btn>
+                            <v-btn color="error" type="submit" variant="text">Cancelar</v-btn>
+                            <v-btn color="primary" type="submit">Aceptar</v-btn>
                         </v-col>
                     </v-row>
                 </Form>

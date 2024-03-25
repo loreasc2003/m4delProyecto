@@ -24,8 +24,8 @@ let posts: Post[] = [
         profile: {
             id: '#52MATHEW',
             avatar: user1,
-            name: 'Mathew Anderson',
-            time: '15 min ago'
+            name: 'Alexander Carrasco',
+            time: 'Hace 15 min'
         },
         data: {
             content: chance.paragraph({ sentences: 2 }),
@@ -45,8 +45,8 @@ let posts: Post[] = [
                     profile: {
                         id: '#52MATHEW',
                         avatar: user3,
-                        name: 'Deran Mac',
-                        time: '8 mins ago '
+                        name: 'Luis Martinez',
+                        time: 'Hace 8 mins  '
                     },
                     data: {
                         comment: chance.paragraph({ sentences: 1 }),
@@ -61,8 +61,8 @@ let posts: Post[] = [
                     profile: {
                         id: '#52MATHEW',
                         avatar: user4,
-                        name: 'Jonathan Bg',
-                        time: '5 mins ago '
+                        name: 'Jonathan Ramirez',
+                        time: 'Hace 5 min'
                     },
                     data: {
                         comment:
@@ -77,7 +77,7 @@ let posts: Post[] = [
                                 profile: {
                                     id: '#52MATHEW',
                                     avatar: user5,
-                                    name: 'Carry minati',
+                                    name: 'Carlos Ortega',
                                     time: 'just now '
                                 },
                                 data: {
@@ -99,7 +99,7 @@ let posts: Post[] = [
         profile: {
             id: '#52CARRY',
             avatar: user1,
-            name: 'Carry Minati',
+            name: 'Luis Ortega',
             time: 'now'
         },
         data: {
@@ -117,7 +117,7 @@ let posts: Post[] = [
         profile: {
             id: '#52GENELIA',
             avatar: user2,
-            name: 'Genelia Desouza',
+            name: 'Lorena Ascencion',
             time: '15 min ago '
         },
         data: {
@@ -142,8 +142,8 @@ let posts: Post[] = [
                     profile: {
                         id: '#52GENELIA',
                         avatar: user3,
-                        name: 'Ritesh Deshmukh',
-                        time: '15 min ago '
+                        name: 'Daniel Zuñiga',
+                        time: 'Hace 15 min'
                     },
                     data: {
                         comment:
@@ -163,8 +163,8 @@ let posts: Post[] = [
         profile: {
             id: '#52Mathew',
             avatar: user1,
-            name: 'Mathew Anderson',
-            time: '15 min ago '
+            name: 'Luis Ortega',
+            time: 'Hace 15 min '
         },
         data: {
             content: chance.paragraph({ sentences: 1 }),

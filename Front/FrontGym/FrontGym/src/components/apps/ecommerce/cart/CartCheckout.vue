@@ -25,17 +25,17 @@ function changeTab(e: string) {
                 <v-tab value="tab-1" rounded="md" class="mb-3 mx-2 text-left" height="70">
                     <BasketIcon stroke-width="1.5" width="20" class="v-icon--start" />
                     <div>
-                        <div>Item Cart</div>
-                        <span class="text-subtitle-2 text-lightText text-medium-emphasis font-weight-medium d-block">Product Summary</span>
+                        <div>Productos</div>
+                        <span class="text-subtitle-2 text-lightText text-medium-emphasis font-weight-medium d-block">Resumen de pedido</span>
                     </div>
                 </v-tab>
 
                 <v-tab value="tab-2" rounded="md" class="mb-3 mx-2 text-left" height="70" :disabled="store.cart.length < 1">
                     <FileDescriptionIcon stroke-width="1.5" width="20" class="v-icon--start" />
                     <div>
-                        <div>Billing</div>
+                        <div>Facturacion</div>
                         <span class="text-subtitle-2 text-lightText text-medium-emphasis font-weight-medium d-block">
-                            Billing Information
+                            Información de factura
                         </span>
                     </div>
                 </v-tab>
@@ -43,9 +43,9 @@ function changeTab(e: string) {
                 <v-tab value="tab-3" rounded="md" class="mb-3 mx-2 text-left" height="70" :disabled="store.cart.length < 1">
                     <CreditCardIcon stroke-width="1.5" width="20" class="v-icon--start" />
                     <div>
-                        <div>Payment</div>
+                        <div>Pagos</div>
                         <span class="text-subtitle-2 text-lightText text-medium-emphasis font-weight-medium d-block">
-                            Add & Update Card
+                            Agrega y paga con tarjeta
                         </span>
                     </div>
                 </v-tab>
@@ -55,10 +55,10 @@ function changeTab(e: string) {
                     <StepFirst />
                     <v-row class="mt-3">
                         <v-col cols="12" sm="6">
-                            <v-btn color="primary" variant="tonal" to="/ecommerce/products">Continue Shopping</v-btn>
+                            <v-btn color="primary" variant="tonal" to="/ecommerce/products">Continuar comprando</v-btn>
                         </v-col>
                         <v-col cols="12" sm="6" class="text-sm-right">
-                            <v-btn color="primary" @click="changeTab('tab-2')" v-if="store.cart.length >= 1">CheckOut</v-btn>
+                            <v-btn color="primary" @click="changeTab('tab-2')" v-if="store.cart.length >= 1">Confirmar productos</v-btn>
                         </v-col>
                     </v-row>
                 </v-window-item>
@@ -66,10 +66,10 @@ function changeTab(e: string) {
                     <StepSecond />
                     <v-row class="mt-3">
                         <v-col cols="6">
-                            <v-btn color="primary" variant="tonal" @click="changeTab('tab-1')">Back</v-btn>
+                            <v-btn color="primary" variant="tonal" @click="changeTab('tab-1')">Regresar</v-btn>
                         </v-col>
                         <v-col cols="6" class="text-right">
-                            <v-btn color="primary" @click="changeTab('tab-3')">Place an Order</v-btn>
+                            <v-btn color="primary" @click="changeTab('tab-3')">Continuar</v-btn>
                         </v-col>
                     </v-row>
                 </v-window-item>
@@ -77,10 +77,10 @@ function changeTab(e: string) {
                     <Payment />
                     <v-row class="mt-3">
                         <v-col cols="12" sm="6">
-                            <v-btn color="primary" variant="tonal" @click="changeTab('tab-2')">Back</v-btn>
+                            <v-btn color="primary" variant="tonal" @click="changeTab('tab-2')">Regresar</v-btn>
                         </v-col>
                         <v-col cols="12" sm="6" class="text-sm-right">
-                            <v-btn color="primary" @click="thankyou = true">Complete an Order</v-btn>
+                            <v-btn color="primary" @click="thankyou = true">Completar orden</v-btn>
                             <!-- Modal -->
                             <v-dialog v-model="thankyou" max-width="750">
                                 <Thankyou />

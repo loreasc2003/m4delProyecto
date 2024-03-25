@@ -75,7 +75,7 @@ const BlogComment: blogType[] = [
 const BlogPost: blogpostType[] = [
     {
         id: chance.integer({ min: 1, max: 2000 }),
-        title: 'Garmins Instinct Crossover is a rugged hybrid smartwatch',
+        title: 'No se a que le muevo',
         content: chance.paragraph({ sentences: 2 }),
         coverImg: s1,
         createdAt: sub(new Date(), { days: 8, hours: 6, minutes: 20 }),

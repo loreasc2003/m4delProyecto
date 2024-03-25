@@ -16,8 +16,8 @@ const dialog = ref(false);
     <v-row>
         <v-col cols="12">
             <div class="d-flex align-center my-5">
-                <h4 class="text-h5">Billing Address</h4>
-                <v-btn size="small" color="primary" class="ml-auto" @click="dialog = true"><PlusIcon size="16" /> Add Address</v-btn>
+                <h4 class="text-h5">Dirección de Envio</h4>
+                <v-btn size="small" color="primary" class="ml-auto" @click="dialog = true"><PlusIcon size="16" /> Agregar dirección</v-btn>
             </div>
             <v-row>
                 <v-col lg="4" md="4" cols="12" v-for="address in store.addresses" :key="address.id">
@@ -42,7 +42,7 @@ const dialog = ref(false);
         <v-col lg="4" cols="12" md="12">
             <div v-for="address in store.addresses" class="mt-7">
                 <template v-if="address.isDefault">
-                    <h5 class="text-h5 mb-4">Shipping Address</h5>
+                    <h5 class="text-h5 mb-4">Dirección de envío</h5>
                     <AddressCard
                         :name="address.name"
                         :destination="address.destination"

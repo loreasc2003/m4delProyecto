@@ -13,7 +13,7 @@ let address: Address[] = [
     {
         id: 1,
         name: chance.name(),
-        destination: 'Home',
+        destination: 'Hogar',
         building: chance.address({ short_suffix: true }),
         city: chance.city(),
         state: chance.state({ full: true }),
@@ -23,7 +23,7 @@ let address: Address[] = [
     {
         id: 2,
         name: chance.name(),
-        destination: 'Office',
+        destination: 'Oficina',
         building: chance.address({ short_suffix: true }),
         city: chance.city(),
         state: chance.state({ full: true }),
@@ -33,7 +33,7 @@ let address: Address[] = [
     {
         id: 3,
         name: chance.name(),
-        destination: 'Office',
+        destination: 'Oficina',
         building: chance.address({ short_suffix: true }),
         city: chance.city(),
         state: chance.state({ full: true }),
