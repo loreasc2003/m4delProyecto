@@ -99,7 +99,7 @@ const sidebarItem: menu[] = [
       {
         title: 'Chat',
         icon: CircleDotIcon,
-        to: '/dashboards/marketing/gestion/chat'
+        to: '/dashboards/marketing/chat'
       },
       {
         title: 'Programación de eventos ',
@@ -141,11 +141,19 @@ const sidebarItem: menu[] = [
   //   icon: ShoppingCartIcon,
   //   to: "/dashboards/rhumanos",
   // },
+<<<<<<< HEAD
+  /*{
+    title: "Modern",
+    icon: ApertureIcon,
+    to: "/dashboards/modern",
+  },*/
+=======
   // /*{
   //   title: "Modern",
   //   icon: ApertureIcon,
   //   to: "/dashboards/modern",
   // },*/
+>>>>>>> main
   // { header: 'Apps' },
   // {
   //   title: 'Contact',

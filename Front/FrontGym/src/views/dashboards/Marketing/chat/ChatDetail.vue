@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue';
-import { useChatStore } from '@/stores/apps/chat';
+import { useChatStore } from '../../../../stores/apps/chat';
 import { formatDistanceToNowStrict } from 'date-fns';
 import ChatSendMsg from './ChatSendMsg.vue';
 import ChatInfo from './ChatInfo.vue';
