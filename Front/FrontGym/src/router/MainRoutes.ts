@@ -20,8 +20,8 @@ const MainRoutes = {
             component: () => import('@/views/dashboards/Marketing/Marketing.vue'),
         },
         {
-            path: '/dashboards/marketing',
-            component: () => import('@/views/dashboards/Marketing/Gestion/chat.vue'),
+            path: '/dashboards/marketing/chat',
+            component: () => import('@/views/dashboards/Marketing/chat/Chats.vue'),
         },
         {
             path: '/dashboards/marketing/promos',
@@ -39,25 +39,25 @@ const MainRoutes = {
             path: '/dashboards/marketing/promos/promociones',
             component: () => import('@/views/dashboards/Marketing/Promos/promociones/Products.vue'),
         },
-        {
-            path: '/dashboards/rhumanos',
-            component: () => import('@/views/dashboards/rhumanos/Rhumanos.vue'),
-        },
-        {
-            name: 'Ecommerce',
-            path: '/dashboards/ecommerce',
-            component: () => import('@/views/dashboards/ecommerce/Ecommerce.vue'),
-        },
+        // {
+        //     path: '/dashboards/rhumanos',
+        //     component: () => import('@/views/dashboards/rhumanos/Rhumanos.vue'),
+        // },
+        // {
+        //     name: 'Ecommerce',
+        //     path: '/dashboards/ecommerce',
+        //     component: () => import('@/views/dashboards/ecommerce/Ecommerce.vue'),
+        // },
         {
             name: 'Modern',
             path: '/dashboards/modern',
             component: () => import('@/views/dashboards/modern/Modern.vue'),
         },
-        {
-            name: 'Chats',
-            path: '/apps/chats',
-            component: () => import('@/views/apps/chat/Chats.vue')
-        },
+        // {
+        //     name: 'Chats',
+        //     path: '/apps/chats',
+        //     component: () => import('@/views/apps/chat/Chats.vue')
+        // },
         {
             name: 'Email',
             path: '/apps/email',
@@ -124,11 +124,11 @@ const MainRoutes = {
             path: '/apps/contacts',
             component: () => import('@/views/apps/contact/Contact.vue')
         },
-        {
-            name: 'Calendar',
-            path: '/apps/calendar',
-            component: () => import('@/views/apps/calendar/Calendar.vue')
-        },
+        // {
+        //     name: 'Calendar',
+        //     path: '/apps/calendar',
+        //     component: () => import('@/views/apps/calendar/Calendar.vue')
+        // },
         {
             name: 'Kanban',
             path: '/apps/kanban',
