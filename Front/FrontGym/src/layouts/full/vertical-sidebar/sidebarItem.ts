@@ -141,19 +141,11 @@ const sidebarItem: menu[] = [
   //   icon: ShoppingCartIcon,
   //   to: "/dashboards/rhumanos",
   // },
-<<<<<<< HEAD
-  /*{
-    title: "Modern",
-    icon: ApertureIcon,
-    to: "/dashboards/modern",
-  },*/
-=======
   // /*{
   //   title: "Modern",
   //   icon: ApertureIcon,
   //   to: "/dashboards/modern",
   // },*/
->>>>>>> main
   // { header: 'Apps' },
   // {
   //   title: 'Contact',
