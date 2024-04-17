@@ -93,7 +93,7 @@ const sidebarItem: menu[] = [
     children: [
       {
         title: 'Gestion de redes sociales',
-        icon: CircleDotIcon,
+        icon: ChartDonut3Icon,
         to: '/dashboards/marketing/gestion'
       },
       {
