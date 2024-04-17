@@ -88,34 +88,44 @@ const sidebarItem: menu[] = [
   },*/
   {
     title: "Marketing",
-    icon: ShoppingCartIcon,
+    icon: BrandCodesandboxIcon,
     to: "/dashboards/marketing",
     children: [
       {
         title: 'Gestion de redes sociales',
-        icon: CircleDotIcon,
+        icon: ChartDonut3Icon,
         to: '/dashboards/marketing/gestion'
       },
       {
         title: 'Chat',
-        icon: CircleDotIcon,
+        icon: Message2Icon,
         to: '/dashboards/marketing/chat'
       },
       {
         title: 'Programación de eventos ',
-        icon: CircleDotIcon,
+        icon: CalendarIcon,
         to: '/dashboards/marketing/promos'
       },
       {
         title: 'Promociones epeciales',
-        icon: CircleDotIcon,
+        icon: ShoppingCartIcon,
         to: '/dashboards/marketing/promos/promociones'
       },
       {
         title: 'Programas de afiliados y referidos',
-        icon: CircleDotIcon,
+        icon: FilesIcon,
         to: '/dashboards/marketing/afiliados'
       },
+      {
+          title: 'Doughnut & Pie',
+          icon: ChartDonut3Icon,
+          to: '/dashboards/marketing/Dashboard/doughnut-pie-chart'
+        },
+        {
+          title: 'Radialbar & Radar',
+          icon: ChartRadarIcon,
+          to: '/dashboards/marketing/Dashboard/radialbar-chart'
+        },
       
     ]
   },

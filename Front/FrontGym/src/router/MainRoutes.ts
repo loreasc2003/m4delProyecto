@@ -39,6 +39,23 @@ const MainRoutes = {
             path: '/dashboards/marketing/promos/promociones',
             component: () => import('@/views/dashboards/Marketing/Promos/promociones/Products.vue'),
         },
+
+
+
+
+        {
+            path: '/dashboards/marketing/Dashboard/doughnut-pie-chart',
+            component: () => import('@/views/dashboards/Marketing/Dashboard/ApexDonutPieChart.vue'),
+        },
+
+        {
+            path: '/dashboards/marketing/Dashboard/radialbar-chart',
+            component: () => import('@/views/dashboards/Marketing/Dashboard/ApexRadialRadarChart.vue'),
+        },
+
+
+
+
         // {
         //     path: '/dashboards/rhumanos',
         //     component: () => import('@/views/dashboards/rhumanos/Rhumanos.vue'),
@@ -214,16 +231,16 @@ const MainRoutes = {
             path: '/charts/candlestick-chart',
             component: () => import('@/views/charts/ApexCandlestickChart.vue')
         },
-        {
-            name: 'Donut & Pie',
-            path: '/charts/doughnut-pie-chart',
-            component: () => import('@/views/charts/ApexDonutPieChart.vue')
-        },
-        {
-            name: 'Radialbar & Radar',
-            path: '/charts/radialbar-chart',
-            component: () => import('@/views/charts/ApexRadialRadarChart.vue')
-        },
+        // {
+        //     name: 'Donut & Pie',
+        //     path: '/charts/doughnut-pie-chart',
+        //     component: () => import('@/views/charts/ApexDonutPieChart.vue')
+        // },
+        // {
+        //     name: 'Radialbar & Radar',
+        //     path: '/charts/radialbar-chart',
+        //     component: () => import('@/views/charts/ApexRadialRadarChart.vue')
+        // },
         {
             name: 'Banners',
             path: '/widgets/banners',
