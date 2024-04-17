@@ -98,7 +98,7 @@ const sidebarItem: menu[] = [
       },
       {
         title: 'Chat',
-        icon: CircleDotIcon,
+        icon: Message2Icon,
         to: '/dashboards/marketing/chat'
       },
       {
@@ -116,6 +116,16 @@ const sidebarItem: menu[] = [
         icon: CircleDotIcon,
         to: '/dashboards/marketing/afiliados'
       },
+      {
+          title: 'Doughnut & Pie',
+          icon: ChartDonut3Icon,
+          to: '/dashboards/marketing/Dashboard/doughnut-pie-chart'
+        },
+        {
+          title: 'Radialbar & Radar',
+          icon: ChartRadarIcon,
+          to: '/dashboards/marketing/Dashboard/radialbar-chart'
+        },
       
     ]
   },
