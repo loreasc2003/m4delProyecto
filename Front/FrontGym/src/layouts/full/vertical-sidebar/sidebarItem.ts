@@ -88,7 +88,7 @@ const sidebarItem: menu[] = [
   },*/
   {
     title: "Marketing",
-    icon: ShoppingCartIcon,
+    icon: BrandCodesandboxIcon,
     to: "/dashboards/marketing",
     children: [
       {
@@ -103,17 +103,17 @@ const sidebarItem: menu[] = [
       },
       {
         title: 'Programación de eventos ',
-        icon: CircleDotIcon,
+        icon: CalendarIcon,
         to: '/dashboards/marketing/promos'
       },
       {
         title: 'Promociones epeciales',
-        icon: CircleDotIcon,
+        icon: ShoppingCartIcon,
         to: '/dashboards/marketing/promos/promociones'
       },
       {
         title: 'Programas de afiliados y referidos',
-        icon: CircleDotIcon,
+        icon: FilesIcon,
         to: '/dashboards/marketing/afiliados'
       },
       {
