@@ -8,13 +8,13 @@ const MainRoutes = {
     children: [
         {
             path: '/',
-            redirect: "/dashboards/analytical",
+            redirect: "/dashboards/Marketing/Marketing.vue",
         },
-        {
-            name: 'Analytical',
-            path: '/dashboards/analytical',
-            component: () => import('@/views/dashboards/analytical/Analytical.vue'),
-        },
+        // {
+        //     name: 'Analytical',
+        //     path: '/dashboards/analytical',
+        //     component: () => import('@/views/dashboards/analytical/Analytical.vue'),
+        // },
         {
             path: '/dashboards/marketing',
             component: () => import('@/views/dashboards/Marketing/Marketing.vue'),
