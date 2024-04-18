@@ -79,8 +79,20 @@ Este repositorio contiene el código fuente de un sistema para un gimnasio desar
 
 </div>
 
+## Wireframes 
+<div align="center">
+  
+![W9](https://github.com/loreasc2003/m4delProyecto/assets/163441777/073051cb-a9f7-428e-8e93-18ad4f41c2c7)
+![W8](https://github.com/loreasc2003/m4delProyecto/assets/163441777/d8f59720-5b5a-4c26-9f6e-064742103bee)
+![W7](https://github.com/loreasc2003/m4delProyecto/assets/163441777/4892e32d-2595-4dcc-8cea-fed895570866)
+![W6](https://github.com/loreasc2003/m4delProyecto/assets/163441777/3e75cebb-523c-4e35-8a16-5070bfd171a9)
+![W5](https://github.com/loreasc2003/m4delProyecto/assets/163441777/ea2de713-88dd-4207-a957-9753e9c9918d)
+![W4](https://github.com/loreasc2003/m4delProyecto/assets/163441777/2fdc73ee-efa0-4e51-a978-2bf29603d972)
+![W3](https://github.com/loreasc2003/m4delProyecto/assets/163441777/5a3469c6-c282-47d6-8176-3f5abaf879dd)
+![W2](https://github.com/loreasc2003/m4delProyecto/assets/163441777/f4bed6cc-fc01-408a-a591-730404dfa194)
+![W1](https://github.com/loreasc2003/m4delProyecto/assets/163441777/3340eec6-23b1-4457-897a-e89153d1e62f)
 
-
+</div>
 
 ## Instalación y uso
 1. Clona este repositorio:
