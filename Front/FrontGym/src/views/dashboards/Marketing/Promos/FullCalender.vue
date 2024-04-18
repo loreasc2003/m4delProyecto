@@ -154,9 +154,9 @@ export default defineComponent({
       <v-dialog v-model="updateModalShow" max-width="500px">
         <v-card>
           <v-card-text>
-            <h4 class="text-h4">Update Event</h4>
-            <p class="text-subtitle-1 textSecondary my-4">To Edit/Update Event kindly change the title and choose the event
-              color and press the update button</p>
+            <h4 class="text-h4">Actualizacion de Evento</h4>
+            <p class="text-subtitle-1 textSecondary my-4">Para editar/actualizar un evento, cambie el título y elija el evento.
+              color y presione el botón actualizar</p>
           </v-card-text>
         </v-card>
       </v-dialog>
@@ -165,8 +165,8 @@ export default defineComponent({
         <v-card>
           <v-card-text>
             <h4 class="text-h4">Agregar evento</h4>
-            <p class="text-subtitle-1 textSecondary  my-4">To add Event kindly fillup the title and choose the event color
-              and press the add button</p>
+            <p class="text-subtitle-1 textSecondary  my-4">Para agregar un evento, complete el título y elija el color del evento.
+              y presione el botón agregar</p>
         </v-card-text>
         </v-card>
       </v-dialog>
