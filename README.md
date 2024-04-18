@@ -72,6 +72,26 @@ Crear un espacio virtual dinámico que sirva como centro de información, motiva
 
 •	Enfocarse en la participación activa, la atracción de nuevos miembros.
 
+## Requerimientos funcionales 
+
+1. Agregar, editar y eliminar productos
+2. Visualizar imágenes y descripciones detalladas
+3. Gestionar la disponibilidad de productos
+4. Agregar productos al carrito de compra
+5. Gestionar los envíos 
+6. Gestión del tipo de promoción 
+7. Mostrar contenido generado por los usuarios (testimonios, fotos, etc.)
+8. Establecer fechas de inicio y fin para las promociones 
+9. Ver y editar las promociones 
+10. Integrar las promociones a las redes sociales 
+11. Publicar banners en la webapp 
+12. Permitir filtrar los productos por categoría, marca o precio
+13. Mostrar el stock total de productos en tiempo real.
+14. Acceder al producto para editar su información.
+15. Mantener un calendario actualizado con eventos, talleres y actividades especiales
+
+
+
 ## Contexto del proyecto
 Este repositorio contiene el código fuente de un sistema para un gimnasio desarrollado con Vue.js y utilizando la plantilla Flexy Vuetify Dashboard de WrapPixel como base.
 
