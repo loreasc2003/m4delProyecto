@@ -1,5 +1,5 @@
 from django.db import models
-from django.utils import timezone
+
 
 
 class detalles_pedidos(models.Model):
@@ -12,8 +12,10 @@ class detalles_pedidos(models.Model):
     fecha_entrega = models.DateTimeField()
     estatus = models.CharField(max_length=20)
 
+    class Meta:
+        db_table = 'detalles_pedidos'
     def __str__(self):
-        return f"Detalle de pedido {self.id}"
+        return self.id
 
 		
 class detalles_productos(models.Model):
@@ -25,8 +27,8 @@ class detalles_productos(models.Model):
     productos_existencia = models.PositiveIntegerField()
     estatus = models.CharField(max_length=20)
 
-    def __str__(self):
-        return f"Detalle del producto {self.id}"
+    class Meta:
+        db_table = 'detalles_productos'
 
 class detalles_promociones(models.Model):
     id = models.AutoField(primary_key=True)
@@ -35,8 +37,8 @@ class detalles_promociones(models.Model):
     fecha_fin = models.DateField()
     estatus = models.CharField(max_length=20)
 
-    def __str__(self):
-        return f"Detalle de la promoción {self.id}"
+    class Meta:
+        db_table = 'detalles_promociones'
 
 class productos(models.Model):
     id = models.AutoField(primary_key=True)
@@ -46,8 +48,8 @@ class productos(models.Model):
     fotografia = models.ImageField(upload_to='productos/')
     estatus = models.CharField(max_length=20)
 
-    def __str__(self):
-        return self.nombre
+    class Meta:
+        db_table = 'productos'
 
 class pedidos(models.Model):
     id = models.AutoField(primary_key=True)
@@ -57,8 +59,8 @@ class pedidos(models.Model):
     fecha_registro = models.DateTimeField(auto_now_add=True)
     estatus = models.CharField(max_length=20)
 
-    def __str__(self):
-        return f"Pedido {self.id}"
+    class Meta:
+        db_table = 'pedidos'
 
 class promociones(models.Model):
     id = models.AutoField(primary_key=True)
@@ -67,8 +69,8 @@ class promociones(models.Model):
     aplicacion_en = models.CharField(max_length=50)
     estatus = models.CharField(max_length=20)
 
-    def __str__(self):
-        return f"Promoción {self.id}"
+    class Meta:
+        db_table = 'promociones'
 
 
 
