@@ -10,22 +10,21 @@ class detalles_pedidos(models.Model):
     total_parcial = models.DecimalField(max_digits=10, decimal_places=2)
     fecha_registro = models.DateTimeField(auto_now_add=True)
     fecha_entrega = models.DateTimeField()
-    estatus = models.CharField(max_length=20)
+    estatus = models.BooleanField(default=False) 
 
     class Meta:
         db_table = 'detalles_pedidos'
-    def __str__(self):
-        return self.id
+    
 
 		
 class detalles_productos(models.Model):
     id = models.AutoField(primary_key=True)
     producto_id = models.IntegerField()
     descripcion = models.TextField()
-    codigo_barras = models.CharField(max_length=50)
+    codigo_barras = models.IntegerField()
     presentacion = models.CharField(max_length=100)
     productos_existencia = models.PositiveIntegerField()
-    estatus = models.CharField(max_length=20)
+    estatus = models.BooleanField(default=False) 
 
     class Meta:
         db_table = 'detalles_productos'
@@ -35,7 +34,7 @@ class detalles_promociones(models.Model):
     promociones_id = models.IntegerField()
     fecha_inicio = models.DateField()
     fecha_fin = models.DateField()
-    estatus = models.CharField(max_length=20)
+    estatus = models.BooleanField(default=False) 
 
     class Meta:
         db_table = 'detalles_promociones'
@@ -46,7 +45,7 @@ class productos(models.Model):
     marca = models.CharField(max_length=100)
     precio_actual = models.DecimalField(max_digits=10, decimal_places=2)
     fotografia = models.ImageField(upload_to='productos/')
-    estatus = models.CharField(max_length=20)
+    estatus = models.BooleanField(default=False) 
 
     class Meta:
         db_table = 'productos'
@@ -57,7 +56,7 @@ class pedidos(models.Model):
     producto_id = models.IntegerField()
     total = models.DecimalField(max_digits=10, decimal_places=2)
     fecha_registro = models.DateTimeField(auto_now_add=True)
-    estatus = models.CharField(max_length=20)
+    estatus = models.BooleanField(default=False) 
 
     class Meta:
         db_table = 'pedidos'
@@ -65,9 +64,19 @@ class pedidos(models.Model):
 class promociones(models.Model):
     id = models.AutoField(primary_key=True)
     producto_id = models.IntegerField()
-    tipo = models.CharField(max_length=50)
-    aplicacion_en = models.CharField(max_length=50)
-    estatus = models.CharField(max_length=20)
+    TIPO_CHOICES = (
+        ('membresias', 'Membresías'),
+        ('personalizado', 'Personalizado'),
+        ('complementarios', 'Complementarios'),
+        ('recompensas', 'Recompensas'),
+    )
+    tipo = models.CharField(max_length=15, choices=TIPO_CHOICES)
+    APLICACION_CHOICES = (
+        ('Membresia', 'Membresía'),
+        ('Producto', 'Producto'),
+    )
+    aplicacion_en = models.CharField(max_length=10, choices=APLICACION_CHOICES)
+    estatus = models.BooleanField(default=False) 
 
     class Meta:
         db_table = 'promociones'
