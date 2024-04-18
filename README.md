@@ -103,6 +103,28 @@ Crear un espacio virtual dinámico que sirva como centro de información, motiva
 9. El sistema debe ser capaz de manejar un alto volumen de usuarios y transacciones.
 10. El sistema debe tener un plan de recuperación ante desastres.
 
+## Reglas de negocio 
+
+1. Solo los usuarios con el rol de administrador o vendedor pueden agregar, editar o eliminar productos.
+2. Los productos deben tener un nombre, descripción, precio, categoría y stock mínimo.
+3. Las imágenes de los productos deben ser de alta calidad.
+4. Los precios de los productos deben ser válidos y estar expresados en la moneda local.
+5. El stock de los productos debe ser actualizado en tiempo real.
+6. Solo los usuarios con el rol de administrador pueden crear, editar o eliminar promociones.
+7. Las promociones deben tener un nombre, tipo de promoción, fecha de inicio y fin.
+8. Las promociones pueden ser aplicables a todos los productos o a una selección específica.
+9. El sistema debe notificar a los usuarios sobre las promociones disponibles.
+10. El dashboard debe mostrar el stock total de productos en tiempo real.
+11. En el inventario se debe permitir filtrar y buscar productos por categorías.
+12. Se debe mostrar el historial de movimientos de inventario.
+13. Los productos deben tener un código único identificativo.
+14. Los productos deben tener una clasificación por categoría y marca.
+15. Los productos deben tener un indicador de stock disponible y agotado.
+16. El sistema debe permitir realizar ajustes de inventario manual.
+17. Las promociones deben tener un límite de uso por usuario o por compra.
+18. Las promociones pueden ser exclusivas o combinables con otras ofertas.
+19. El sistema debe integrar con el software de gestión del gimnasio.
+20. El sistema debe cumplir con las normas de seguridad y privacidad de datos.
 
 
 ## Contexto del proyecto
