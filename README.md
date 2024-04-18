@@ -26,9 +26,10 @@
   
 | LOGO DEl SITIO  | LOGO DE LA EMPRESA | 
 |:------------- |:---------------:| 
-<img src="https://github.com/loreasc2003/m4delProyecto/assets/163441777/75e27319-c2da-456b-8fc0-9bf3d29f6567" width="400" height="400">|<img src="https://github.com/loreasc2003/m4delProyecto/assets/163441777/42536183-91b6-48ab-8253-d59274af9ba6" width="400" height="400">|
+<img src="https://github.com/loreasc2003/m4delProyecto/assets/163441777/75e27319-c2da-456b-8fc0-9bf3d29f6567" width="400" height="400">|<img src="https://github.com/loreasc2003/m4delProyecto/assets/163441777/011fced5-cb82-4bc5-9c0f-4397029d7097" width="400" height="300">|
   
 </div>
+
 
 ## **M4DEL**
 ### Organigrama del equipo
