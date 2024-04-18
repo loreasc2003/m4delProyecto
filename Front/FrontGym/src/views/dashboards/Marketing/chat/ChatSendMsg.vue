@@ -26,7 +26,7 @@ function addItemAndClear(item: string) {
             color="primary"
             class="shadow-none"
             density="compact"
-            placeholder="Type a Message"
+            placeholder="Escribe Mensaje"
         ></v-text-field>
         <v-btn icon variant="text" type="submit" class="text-medium-emphasis" :disabled="!msg">
             <SendIcon size="20" />

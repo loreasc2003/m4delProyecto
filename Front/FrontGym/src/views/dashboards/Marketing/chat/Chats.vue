@@ -8,14 +8,14 @@ import ChatDetail from '../chat/ChatDetail.vue';
 import ChatProfile from '../chat/ChatProfile.vue';
 
 // theme breadcrumb
-const page = ref({ title: 'Chat app' });
+const page = ref({ title: 'Chat' });
 
 const breadcrumbs = ref([
-    {
-        text: 'Messenger',
-        disabled: true,
-        href: '#'
-    }
+    // {
+    //     text: 'Messenger',
+    //     disabled: true,
+    //     href: '#'
+    // }
 ]);
 </script>
 
