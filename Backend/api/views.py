@@ -1,5 +1,5 @@
 from rest_framework import viewsets
-from .models import tbl_cliente,tbl_rol
+from .models import detalles_pedidos,detalles_productos,detalles_promociones,productos,pedidos,promociones
 from .serializer import detalles_pedidosSerializer,detalles_productosSerializer,detalles_promocionesSerializer,productosSerializer, pedidosSerializer, promocionesSerializer
 
 class detalles_pedidosViewSet(viewsets.ModelViewSet):
