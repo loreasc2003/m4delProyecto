@@ -11,7 +11,7 @@ const page = ref({ title: 'Note app' });
 
 const breadcrumbs = ref([
     {
-        text: 'Add todo list',
+        text: 'Agregar a la lista',
         disabled: true,
         href: '#'
     }
