@@ -57,10 +57,22 @@ presencia online y mejorar el compromiso con los socios. Esta propuesta se centr
 implementar una serie de módulos de marketing innovadores que no solo ampliarán la visibilidad 
 del gimnasio, sino que también crearán una experiencia en línea rica y basada en la comunidad. 
 
+## Objetivo General 
+ 
+Crear un espacio virtual dinámico que sirva como centro de información, motivación y conexión para los miembros del gimnasio. La implementación de un sitio web de fitness interactivo tiene como propósito principal fomentar la participación activa y continua de los miembros en la plataforma en línea. A través de la publicación regular de artículos informativos, consejos de entrenamiento, recetas saludables y noticias relacionadas con el gimnasio, buscamos no solo proporcionar contenido valioso, sino también establecer una comunidad virtual vibrante y participativa. 
+
+## Objetivos Específicos 
+ 
+•	Aumentar la visibilidad del gimnasio.
+ 
+•	Integrar las redes sociales en el sitio web del gimnasio. 
+ 
+•	Construir una comunidad en línea activa y comprometida mediante la creación de una sección dedicada a testimonios y reseñas en el sitio web. 
+
+•	Enfocarse en la participación activa, la atracción de nuevos miembros.
+
 ## Contexto del proyecto
 Este repositorio contiene el código fuente de un sistema para un gimnasio desarrollado con Vue.js y utilizando la plantilla Flexy Vuetify Dashboard de WrapPixel como base.
-
-
 
 ## Tecnologías utilizadas 
 - Vue.js
