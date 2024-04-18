@@ -22,7 +22,7 @@ class pedidosViewSet(viewsets.ModelViewSet):
 	queryset = pedidos.objects.all()
 	serializer_class = pedidosSerializer
 
-class detalles_pedidosViewSet(viewsets.ModelViewSet):
+class promocionesViewSet(viewsets.ModelViewSet):
 	queryset = promociones.objects.all()
 	serializer_class = promocionesSerializer
 
