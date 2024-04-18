@@ -117,7 +117,7 @@ export default defineComponent({
     },
     handleDateSelect(selectInfo) {
       this.AddModal = true;
-      const title ='Please enter a new title for your event'
+      const title ='Por favor ingresa un nuevo título para tu evento'
       const calendarApi = selectInfo.view.calendar
       calendarApi.unselect() // clear date selection
       if (title) {

@@ -13,18 +13,18 @@ function allowedDates(val: unknown) {
 }
 
 
-const page = ref({ title: 'Calendar' });
+const page = ref({ title: 'Calendario' });
 const breadcrumbs = ref([
-    {
-        text: 'Dashboard',
-        disabled: false,
-        href: '#'
-    },
-    {
-        text: 'Calendar',
-        disabled: true,
-        href: '#'
-    }
+    // {
+    //     text: 'Dashboard',
+    //     disabled: false,
+    //     href: '#'
+    // },
+    // {
+    //     text: 'Calendar',
+    //     disabled: true,
+    //     href: '#'
+    // }
 ]);
 
 </script>
