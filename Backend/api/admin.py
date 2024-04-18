@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import tbl_cliente,tbl_rol
+from .models import detalles_pedidos,detalles_productos,detalles_promociones,productos,pedidos,promociones
 
 admin.site.register(detalles_pedidos)
 admin.site.register(detalles_productos)
