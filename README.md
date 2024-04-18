@@ -90,6 +90,19 @@ Crear un espacio virtual dinámico que sirva como centro de información, motiva
 14. Acceder al producto para editar su información.
 15. Mantener un calendario actualizado con eventos, talleres y actividades especiales
 
+## Requerimientos no funcionales 
+
+1. El sistema debe tener un tiempo de respuesta rápido para todas las operaciones.
+2. El sistema debe proteger la información confidencial de los usuarios.
+3. El sistema debe cumplir con las normas de seguridad y privacidad de datos.
+4. El sistema debe ser fácil de usar para los usuarios con diferentes niveles de experiencia.
+5. El sistema debe ser capaz de escalarse para adaptarse al crecimiento del negocio.
+6. El sistema debe ser capaz de soportar un mayor número de usuarios y transacciones.
+7. El sistema debe ser capaz de agregar nuevas funcionalidades en el futuro.
+8. El sistema debe ser monitorizado continuamente para detectar y corregir errores.
+9. El sistema debe ser capaz de manejar un alto volumen de usuarios y transacciones.
+10. El sistema debe tener un plan de recuperación ante desastres.
+
 
 
 ## Contexto del proyecto
