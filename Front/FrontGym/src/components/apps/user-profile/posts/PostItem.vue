@@ -13,10 +13,10 @@ const props = defineProps({
 const showCommentBox = ref(!(props.post?.comments && props.post?.comments.length > 0));
 const searchValue = ref('');
 const shareitems = ref([
-    { title: 'Share Now', icon: ShareIcon },
-    { title: 'Share to Friends', icon: UsersIcon },
-    { title: 'Send in Messanger', icon: Message2Icon },
-    { title: 'Copy Link', icon: ClipboardIcon }
+    { title: 'Compartir Ahora', icon: ShareIcon },
+    { title: 'Compartir Con Amigos', icon: UsersIcon },
+    { title: 'Mandar Por Mensaje', icon: Message2Icon },
+    { title: 'Copiar Link', icon: ClipboardIcon }
 ]);
 
 const toggleCommentbox = () => {

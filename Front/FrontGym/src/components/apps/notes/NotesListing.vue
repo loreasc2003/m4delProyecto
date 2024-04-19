@@ -35,7 +35,7 @@ const filteredNotes = computed(() => {
                 variant="outlined"
                 v-model="searchValue"
                 append-inner-icon="mdi-magnify"
-                placeholder="Search Notes"
+                placeholder="Buscar Programas"
                 hide-details
                 density="compact"
             ></v-text-field>

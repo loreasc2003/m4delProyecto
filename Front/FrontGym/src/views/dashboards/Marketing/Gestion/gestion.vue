@@ -9,18 +9,18 @@ import PhotosCard from '@/components/apps/user-profile/PhotosCard.vue';
 import PostListing from '@/components/apps/user-profile/PostListing.vue';
 import AddPost from '@/components/apps/user-profile/posts/AddPost.vue';
 
-const page = ref({ title: 'Social Profile' });
+const page = ref({ title: 'Perfil Social' });
 const breadcrumbs = ref([
-    {
-        text: 'Dashboard',
-        disabled: false,
-        href: '/'
-    },
-    {
-        text: 'Social Profile',
-        disabled: true,
-        href: '#'
-    }
+    // {
+    //     text: 'Dashboard',
+    //     disabled: false,
+    //     href: '/'
+    // },
+    // {
+    //     text: 'Social Profile',
+    //     disabled: true,
+    //     href: '#'
+    // }
 ]);
 </script>
 

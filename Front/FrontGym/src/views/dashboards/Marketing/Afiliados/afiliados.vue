@@ -7,11 +7,11 @@ import AppBaseCard from '@/components/shared/AppBaseCard.vue';
 import NotesListing from '@/components/apps/notes/NotesListing.vue';
 import NotesContent from '@/components/apps/notes/NotesContent.vue';
 // theme breadcrumb
-const page = ref({ title: 'Note app' });
+const page = ref({ title: 'Programas de Filiados' });
 
 const breadcrumbs = ref([
     {
-        text: 'Add todo list',
+        text: 'Agregar a la lista',
         disabled: true,
         href: '#'
     }
