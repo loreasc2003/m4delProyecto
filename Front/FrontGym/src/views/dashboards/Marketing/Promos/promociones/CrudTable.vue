@@ -2,7 +2,7 @@
 import { computed, nextTick, ref, watch } from 'vue';
 import BaseBreadcrumb from '@/components/shared/BaseBreadcrumb.vue';
 import UiParentCard from '@/components/shared/UiParentCard.vue';
-const page = ref({ title: 'CRUD Table' });
+const page = ref({ title: 'CRUD' });
 const breadcrumbs = ref([
     {
         text: 'Dashboard',
@@ -10,7 +10,7 @@ const breadcrumbs = ref([
         href: '#'
     },
     {
-        text: 'CRUD Table',
+        text: 'Tabla CRUD De Productos',
         disabled: true,
         href: '#'
     }
@@ -20,15 +20,15 @@ const dialog = ref(false)
 const dialogDelete = ref(false)
 const headers = ref([
     {
-        title: 'Dessert (100g serving)',
+        title: 'Nombre del Producto',
         align: 'start',
         sortable: false,
         key: 'name',
     },
-    { title: 'Calories', key: 'calories' },
-    { title: 'Fat (g)', key: 'fat' },
-    { title: 'Carbs (g)', key: 'carbs' },
-    { title: 'Protein (g)', key: 'protein' },
+    { title: 'Precio', key: 'calories' },
+    { title: 'Precio en Tienda', key: 'fat' },
+    { title: 'Status', key: 'carbs' },
+    // { title: 'Actualizado', key: 'protein' },
     { title: 'Actions', key: 'actions', sortable: false },
 ])
 const desserts = ref([])
@@ -48,7 +48,7 @@ const defaultItem = ref({
     protein: 0,
 })
 const formTitle = computed(() => {
-    return editedIndex.value === -1 ? 'New Item' : 'Edit Item'
+    return editedIndex.value === -1 ? 'Nuevo Producto' : 'Editar'
 })
 function initialize() {
     desserts.value = [
@@ -173,15 +173,15 @@ initialize()
     <BaseBreadcrumb :title="page.title" :breadcrumbs="breadcrumbs"></BaseBreadcrumb>
     <v-row>
         <v-col cols="12">
-            <UiParentCard title="Crud Table">
+            <UiParentCard title="">
                 <v-data-table class="border rounded-md" :headers="headers" :items="desserts" :sort-by="[{ key: 'calories', order: 'asc' }]">
                     <template v-slot:top>
                         <v-toolbar class="bg-lightprimary rounded-t-md" flat>
-                            <v-toolbar-title>My Crud Table</v-toolbar-title>
+                            <v-toolbar-title>Productos</v-toolbar-title>
                             <v-spacer></v-spacer>
                             <v-dialog v-model="dialog" max-width="500px">
                                 <template v-slot:activator="{ props }">
-                                    <v-btn color="primary"  variant="flat" dark  v-bind="props" >Add New Item</v-btn>
+                                    <v-btn color="primary"  variant="flat" dark  v-bind="props" >Agregar</v-btn>
                                 </template>
                                 <v-card>
                                     <v-card-title class="pa-4 bg-secondary">
@@ -193,23 +193,23 @@ initialize()
                                             <v-row>
                                                 <v-col cols="12" sm="6" md="4">
                                                     <v-text-field v-model="editedItem.name"
-                                                        label="Dessert name"></v-text-field>
+                                                        label="Nombre De Producto"></v-text-field>
                                                 </v-col>
                                                 <v-col cols="12" sm="6" md="4">
                                                     <v-text-field v-model="editedItem.calories"
-                                                        label="Calories"></v-text-field>
+                                                        label="Precio"></v-text-field>
                                                 </v-col>
                                                 <v-col cols="12" sm="6" md="4">
-                                                    <v-text-field v-model="editedItem.fat" label="Fat (g)"></v-text-field>
+                                                    <v-text-field v-model="editedItem.fat" label="Precio En Tienda"></v-text-field>
                                                 </v-col>
                                                 <v-col cols="12" sm="6" md="4">
                                                     <v-text-field v-model="editedItem.carbs"
-                                                        label="Carbs (g)"></v-text-field>
+                                                        label="Status"></v-text-field>
                                                 </v-col>
-                                                <v-col cols="12" sm="6" md="4">
+                                                <!-- <v-col cols="12" sm="6" md="4">
                                                     <v-text-field v-model="editedItem.protein"
-                                                        label="Protein (g)"></v-text-field>
-                                                </v-col>
+                                                        label="Status"></v-text-field>
+                                                </v-col> -->
                                             </v-row>
                                         </v-container>
                                     </v-card-text>
