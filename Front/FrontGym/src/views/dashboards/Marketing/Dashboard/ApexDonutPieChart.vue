@@ -66,19 +66,19 @@ const donutchartOptions = computed(() => {
             }
         ],
         labels: ['Ropa', 'Calzado', ' Equipos de entrenamiento', 'Accesorios de entrenamiento', ' Suplementos'],
-        responsive: [
-            {
-                breakpoint: 480,
-                options: {
-                    chart: {
-                        width: 200
-                    },
-                    legend: {
-                        position: 'bottom'
-                    }
-                }
-            }
-        ]
+        // responsive: [
+        //     {
+        //         breakpoint: 480,
+        //         options: {
+        //             chart: {
+        //                 width: 200
+        //             },
+        //             legend: {
+        //                 position: 'bottom'
+        //             }
+        //         }
+        //     }
+        // ]
     };
 });
 
