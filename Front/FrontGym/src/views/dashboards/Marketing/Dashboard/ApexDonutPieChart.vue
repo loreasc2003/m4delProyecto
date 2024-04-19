@@ -9,7 +9,7 @@ import BaseBreadcrumb from '@/components/shared/BaseBreadcrumb.vue';
 import UiParentCard from '@/components/shared/UiParentCard.vue';
 import UiChildCard from '@/components/shared/UiChildCard.vue';
 // theme breadcrumb
-const page = ref({ title: 'Doughnut Chart' });
+const page = ref({ title: 'Graficos De Anillos' });
 const breadcrumbs = ref([
     {
         text: 'Dashboard',
@@ -17,7 +17,7 @@ const breadcrumbs = ref([
         href: '#'
     },
     {
-        text: 'Doughnut Chart',
+        text: 'SQL',
         disabled: true,
         href: '#'
     }
@@ -133,7 +133,7 @@ const pieChart = {
                     <!-- ---------------------------------------------------- -->
                     <!-- Donut Chart -->
                     <!-- ---------------------------------------------------- -->
-                    <UiChildCard title="Donut Chart" class="bg-surface">
+                    <UiChildCard title="Promociones" class="bg-surface">
                         <apexchart type="donut" height="300" :options="donutchartOptions" :series="donutChart.series"> </apexchart>
                     </UiChildCard>
                 </v-col>
@@ -141,7 +141,7 @@ const pieChart = {
                     <!-- ---------------------------------------------------- -->
                     <!-- Pie Chart -->
                     <!-- ---------------------------------------------------- -->
-                    <UiChildCard title="Pie Chart" class="bg-surface">
+                    <UiChildCard title="Pedidos" class="bg-surface">
                         <apexchart type="pie" height="300" :options="piechartOptions" :series="pieChart.series"> </apexchart>
                     </UiChildCard>
                 </v-col>
