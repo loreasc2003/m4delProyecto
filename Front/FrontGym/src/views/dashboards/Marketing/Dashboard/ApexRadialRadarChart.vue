@@ -8,18 +8,18 @@ import BaseBreadcrumb from '@/components/shared/BaseBreadcrumb.vue';
 import UiParentCard from '@/components/shared/UiParentCard.vue';
 import UiChildCard from '@/components/shared/UiChildCard.vue';
 // theme breadcrumb
-const page = ref({ title: 'Radialbar & Radar Chart' });
+const page = ref({ title: 'Dashboards' });
 const breadcrumbs = ref([
     {
-        text: 'Dashboard',
+        text: 'NoSQL',
         disabled: false,
         href: '#'
     },
-    {
-        text: 'Radialbar & Radar',
-        disabled: true,
-        href: '#'
-    }
+    // {
+    //     text: 'NoSQL',
+    //     disabled: true,
+    //     href: '#'
+    // }
 ]);
 
 const theme = useTheme();
@@ -93,26 +93,27 @@ const radarChart = {
 <template>
     <BaseBreadcrumb :title="page.title" :breadcrumbs="breadcrumbs"></BaseBreadcrumb>
     <v-row>
-        <v-col cols="12">
-            <v-row>
-                <v-col cols="12" lg="6">
+        <!-- <v-col cols="12"> -->
+            <!-- <v-row> -->
+                <!-- <v-col cols="12" lg="6"> -->
                     <!-- ---------------------------------------------------- -->
                     <!-- Radialbar Chart -->
                     <!-- ---------------------------------------------------- -->
-                    <UiChildCard title="Radialbar Chart" class="bg-surface">
+                    <UiChildCard title="Comentarios" class="bg-surface">
                         <apexchart type="radialBar" height="300" :options="radialBarchartOptions" :series="radialBarChart.series">
                         </apexchart>
                     </UiChildCard>
-                </v-col>
-                <v-col cols="12" lg="6">
+                <!-- </v-col>  -->
+
+                <!-- <v-col cols="12" lg="6"> -->
                     <!-- ---------------------------------------------------- -->
                     <!-- Radar Chart -->
                     <!-- ---------------------------------------------------- -->
-                    <UiChildCard title="Radar Chart" class="bg-surface">
+                     <!-- <UiChildCard title="Radar Chart" class="bg-surface"> 
                         <apexchart type="radar" height="300" :options="radarOptions" :series="radarChart.series"> </apexchart>
-                    </UiChildCard>
-                </v-col>
-            </v-row>
-        </v-col>
+                    </UiChildCard>  -->
+                <!-- </v-col> -->
+            <!-- </v-row> -->
+         <!-- </v-col> -->
     </v-row>
 </template>

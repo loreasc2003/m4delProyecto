@@ -117,12 +117,12 @@ const sidebarItem: menu[] = [
         to: '/dashboards/marketing/afiliados'
       },
       {
-          title: 'Doughnut & Pie',
+          title: 'Dashboards SQL',
           icon: ChartDonut3Icon,
           to: '/dashboards/marketing/Dashboard/doughnut-pie-chart'
         },
         {
-          title: 'Radialbar & Radar',
+          title: 'Dashboards NoSQL',
           icon: ChartRadarIcon,
           to: '/dashboards/marketing/Dashboard/radialbar-chart'
         },

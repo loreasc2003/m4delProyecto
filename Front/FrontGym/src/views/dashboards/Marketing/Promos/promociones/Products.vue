@@ -119,7 +119,7 @@ function AddCart(p: number) {
                                     variant="outlined"
                                     v-model="searchValue"
                                     prepend-inner-icon="mdi-magnify"
-                                    placeholder="Search Product"
+                                    placeholder="Buscar Productos"
                                     hide-details
                                     density="compact"
                                     color="primary"

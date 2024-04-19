@@ -6,15 +6,26 @@ const MainRoutes = {
     redirect: '/main',
     component: () => import('@/layouts/full/FullLayout.vue'),
     children: [
+        // {
+        //     path: '/',
+        //     redirect: "/dashboards/analytical",
+        // },
+        // {
+        //     name: 'Analytical',
+        //     path: '/dashboards/analytical',
+        //     component: () => import('@/views/dashboards/analytical/Analytical.vue'),
+        // },
         {
             path: '/',
-            redirect: "/dashboards/analytical",
+            redirect: "/dashboards/Marketing",
         },
         {
-            name: 'Analytical',
-            path: '/dashboards/analytical',
-            component: () => import('@/views/dashboards/analytical/Analytical.vue'),
+            name: 'Marketing',
+            path: '/dashboards/Marketing',
+            component: () => import('@/views/dashboards/Marketing/Gestion/gestion.vue'),
         },
+
+
         {
             path: '/dashboards/marketing',
             component: () => import('@/views/dashboards/Marketing/Marketing.vue'),
