@@ -58,6 +58,7 @@ const radialBarchartOptions = computed(() => {
                 }
             }
         },
+        labels: ['Comentarios Ignorados', 'Comentarios con seguimiento', ' Comentarios reaccionados', 'Comentarios compartidos', ],
     };
 });
 
