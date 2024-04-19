@@ -32,10 +32,12 @@
   
 <br>
 
+
 ## **M4DEL**
 ### Organigrama del equipo
 <br>
 
+![Organigrama_M4DEL](https://github.com/loreasc2003/m4delProyecto/assets/163441777/92a3e283-6e89-4222-be72-af08ef74fef8)
 
 <h3 align="center">Responsables </h3>
 <br>
