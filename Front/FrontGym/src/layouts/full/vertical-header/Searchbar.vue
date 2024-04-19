@@ -7,7 +7,7 @@ import { searchSugg } from '@/_mockApis/headerData';
     <!-- ---------------------------------------------- -->
     <!-- search1 -->
     <!-- ------------------------------------------------>
-    <v-menu :close-on-content-click="false">
+    <!-- <v-menu :close-on-content-click="false">
         <template v-slot:activator="{ props }">
             <v-btn icon variant="text" class="custom-hover-primary ml-2" size="small" color="primary" v-bind="props">
                 <SearchIcon size="22" />
@@ -35,5 +35,5 @@ import { searchSugg } from '@/_mockApis/headerData';
                 </v-list>
             </perfect-scrollbar>
         </v-sheet>
-    </v-menu>
+    </v-menu> -->
 </template>

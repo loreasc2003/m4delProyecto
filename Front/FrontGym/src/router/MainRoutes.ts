@@ -52,6 +52,19 @@ const MainRoutes = {
         },
 
 
+        {
+          
+            path: '/dashboards/marketing/promos/promociones/crudtable',
+            component: () => import('@/views/dashboards/Marketing/Promos/promociones/CrudTable.vue')
+        },
+        {
+          
+            path: '/dashboards/marketing/promos/promociones/productlist',
+            component: () => import('@/views/dashboards/Marketing/Promos/promociones/ProductList.vue')
+        },
+
+
+        
 
 
         {

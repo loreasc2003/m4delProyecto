@@ -20,12 +20,12 @@ const searchValue = ref('');
 
 const headers: Header[] = [
     { text: '#', value: 'image' },
-    { text: 'Product name', value: 'name', sortable: true },
-    { text: 'Created', value: 'created', sortable: true },
-    { text: 'Price', value: 'offerPrice', sortable: true },
-    { text: 'sale-price', value: 'salePrice', sortable: true },
+    { text: 'Nombre Del Producto', value: 'name', sortable: true },
+    { text: 'Actualizado', value: 'created', sortable: true },
+    { text: 'Precio', value: 'offerPrice', sortable: true },
+    { text: 'Precio en tienda', value: 'salePrice', sortable: true },
     { text: 'status', value: 'isStock' },
-    { text: 'Action', value: 'operation' }
+    // { text: 'Action', value: 'operation' }
 ];
 const items = ref(getProducts);
 const themeColor = ref('rgb(var(--v-theme-secondary))');
@@ -36,20 +36,20 @@ const itemsSelected = ref<Item[]>([]);
 <template>
     <v-row>
         <v-col cols="12" md="12">
-            <UiParentCard title="Product List">
+            <UiParentCard title="Lista De Productos">
                 <v-row justify="space-between" class="align-center mb-3">
                     <v-col cols="12" md="3">
                         <v-text-field
                             type="text"
                             variant="outlined"
-                            placeholder="Search Product"
+                            placeholder="Buscar Producto"
                             v-model="searchValue"
                             density="compact"
                             hide-details
                             prepend-inner-icon="mdi-magnify"
                         />
                     </v-col>
-                    <v-col cols="12" md="3">
+                    <!-- <v-col cols="12" md="3">
                         <div class="d-flex gap-2 justify-end">
                             <v-btn icon variant="text">
                                 <CopyIcon size="20" />
@@ -61,7 +61,7 @@ const itemsSelected = ref<Item[]>([]);
                                 <FilterIcon size="20" />
                             </v-btn>
                         </div>
-                    </v-col>
+                    </v-col> -->
                 </v-row>
                 <EasyDataTable
                     :headers="headers"

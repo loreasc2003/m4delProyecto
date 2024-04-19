@@ -5,7 +5,7 @@ import {notifications} from '@/_mockApis/headerData';
     <!-- ---------------------------------------------- -->
     <!-- notifications DD -->
     <!-- ---------------------------------------------- -->
-    <v-menu :close-on-content-click="false">
+    <!-- <v-menu :close-on-content-click="false">
         <template v-slot:activator="{ props }">
             <v-btn icon class="" flat v-bind="props" >
                     <v-badge dot color="primary">
@@ -40,5 +40,5 @@ import {notifications} from '@/_mockApis/headerData';
                 <v-btn color="primary" variant="outlined" block>See all Notifications</v-btn>
             </div>
         </v-sheet>
-    </v-menu>
+    </v-menu> -->
 </template>

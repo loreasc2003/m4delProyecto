@@ -10,7 +10,7 @@ import flag4 from '@/assets/images/flag/icon-flag-fr.svg';
     <!-- ---------------------------------------------- -->
     <!-- language DD -->
     <!-- ---------------------------------------------- -->
-    <v-menu :close-on-content-click="false" location="bottom">
+    <!-- <v-menu :close-on-content-click="false" location="bottom">
         <template v-slot:activator="{ props }">
             <v-btn icon variant="text" color="primary" v-bind="props">
                 <v-avatar size="22">
@@ -43,5 +43,5 @@ import flag4 from '@/assets/images/flag/icon-flag-fr.svg';
                 </v-list-item>
             </v-list>
         </v-sheet>
-    </v-menu>
+    </v-menu> -->
 </template>

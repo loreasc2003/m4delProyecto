@@ -11,7 +11,7 @@ const authStore = useAuthStore();
     <!-- ---------------------------------------------- -->
     <!-- notifications DD -->
     <!-- ---------------------------------------------- -->
-    <v-menu :close-on-content-click="false">
+    <!-- <v-menu :close-on-content-click="false">
         <template v-slot:activator="{ props }">
             <v-btn class="custom-hover-primary" variant="text" v-bind="props" icon>
                 <v-avatar size="35">
@@ -66,5 +66,5 @@ const authStore = useAuthStore();
                 <v-btn color="primary" variant="outlined" block @click="authStore.logout()">Logout</v-btn>
             </div>
         </v-sheet>
-    </v-menu>
+    </v-menu> -->
 </template>
