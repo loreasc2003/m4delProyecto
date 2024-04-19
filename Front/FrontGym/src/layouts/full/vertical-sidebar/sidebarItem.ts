@@ -111,6 +111,24 @@ const sidebarItem: menu[] = [
         icon: ShoppingCartIcon,
         to: '/dashboards/marketing/promos/promociones'
       },
+
+
+
+      {
+        title: 'Productos',
+        icon: ShoppingCartIcon,
+        to: '/dashboards/marketing/promos/promociones/productlist'
+      },
+
+      {
+        title: 'CRUD',
+        icon: ShoppingCartIcon,
+        to: '/dashboards/marketing/promos/promociones/crudtable'
+      },
+
+
+
+
       {
         title: 'Programas de afiliados y referidos',
         icon: FilesIcon,
