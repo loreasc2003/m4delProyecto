@@ -89,7 +89,7 @@ function filterReset() {
                         </v-col>
                         <v-col cols="12">
                             <v-checkbox
-                                label="Suplementos"
+                                label="Accesorios de entrenamiento"
                                 v-model="selectedCategory"
                                 color="primary"
                                 value="kitchen"
@@ -98,7 +98,7 @@ function filterReset() {
                         </v-col>
                         <v-col cols="12">
                             <v-checkbox
-                                label="Accesorios de entrenamiento"
+                                label="Suplementos"
                                 v-model="selectedCategory"
                                 color="primary"
                                 value="electronics"
