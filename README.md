@@ -36,7 +36,7 @@
 ### Organigrama del equipo
 <br>
 
-![Organigrama_M4DEL](https://github.com/loreasc2003/m4delProyecto/assets/163441777/116a9b1f-9652-481a-b90c-f9f1e38ce9ac)
+
 <h3 align="center">Responsables </h3>
 <br>
 <div align="center">
