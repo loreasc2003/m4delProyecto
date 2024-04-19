@@ -3,9 +3,9 @@ import { ref } from 'vue';
 // common components
 import BaseBreadcrumb from '@/components/shared/BaseBreadcrumb.vue';
 import AppBaseCard from '@/components/shared/AppBaseCard.vue';
-import ChatListing from '@/components/apps/chats/ChatListing.vue';
-import ChatDetail from '@/components/apps/chats/ChatDetail.vue';
-import ChatProfile from '@/components/apps/chats/ChatProfile.vue';
+// import ChatListing from '@/components/apps/chats/ChatListing.vue';
+// import ChatDetail from '@/components/apps/chats/ChatDetail.vue';
+// import ChatProfile from '@/components/apps/chats/ChatProfile.vue';
 
 // theme breadcrumb
 const page = ref({ title: 'Email app' });
