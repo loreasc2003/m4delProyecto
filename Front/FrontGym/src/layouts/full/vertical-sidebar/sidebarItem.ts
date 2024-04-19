@@ -116,13 +116,13 @@ const sidebarItem: menu[] = [
 
       {
         title: 'Productos',
-        icon: ShoppingCartIcon,
+        icon: BorderAllIcon,
         to: '/dashboards/marketing/promos/promociones/productlist'
       },
 
       {
         title: 'CRUD',
-        icon: ShoppingCartIcon,
+        icon: JumpRopeIcon,
         to: '/dashboards/marketing/promos/promociones/crudtable'
       },
 
