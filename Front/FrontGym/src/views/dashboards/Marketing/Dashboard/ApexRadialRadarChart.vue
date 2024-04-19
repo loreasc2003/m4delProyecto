@@ -16,7 +16,7 @@ const breadcrumbs = ref([
         href: '#'
     },
     {
-        text: 'NOSQL',
+        text: 'NoSQL',
         disabled: true,
         href: '#'
     }
