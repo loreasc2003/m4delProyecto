@@ -53,75 +53,62 @@ const formTitle = computed(() => {
 function initialize() {
     desserts.value = [
         {
-            name: 'Frozen Yogurt',
-            calories: 159,
-            fat: 6,
-            carbs: 24,
-            protein: 4,
+            name: 'Cinturones de levantamiento de pesas',
+            calories: 175,
+            fat: 200,
+            carbs:  "En stok",
+            // protein: 4,
         },
         {
-            name: 'Ice cream sandwich',
-            calories: 237,
-            fat: 9,
-            carbs: 37,
-            protein: 4.3,
+            name: 'Equipos Cardiovasculares',
+            calories: 81,
+            fat: 89,
+            carbs: "Sin stok",
+            // protein: 4.3,
         },
         {
-            name: 'Eclair',
-            calories: 262,
+            name: 'Paquete de suplementos nutricionales',
+            calories: 49.9,
+            fat: 85,
+            carbs: "En stok",
+            // protein: 6,
+        },
+        {
+            name: 'Suplemento con vitamina C',
+            calories: 29,
+            fat: 36,
+            carbs: "sin stok",
+            // protein: 4.3,
+        },
+        {
+            name: 'Mancuernas Blue',
+            calories: 12,
+            fat: 15,
+            carbs: "En stok",
+            // protein: 3.9,
+        },
+        {
+            name: 'Equipos de entranamiento de fuerza y agilidad',
+            calories: 86,
+            fat: 99,
+            carbs: "En stok",
+            // protein: 0,
+        },
+        {
+            name: 'Pelota gris, Yoga',
+            calories: 14.59,
             fat: 16,
-            carbs: 23,
-            protein: 6,
+            carbs: "Sin stok",
+            // protein: 0,
         },
         {
-            name: 'Cupcake',
-            calories: 305,
-            fat: 3.7,
-            carbs: 67,
-            protein: 4.3,
+            name: 'Pesas libres',
+            calories: 105,
+            fat: 130,
+            carbs: "En stok",
+            // protein: 6.5,
         },
-        {
-            name: 'Gingerbread',
-            calories: 356,
-            fat: 16,
-            carbs: 49,
-            protein: 3.9,
-        },
-        {
-            name: 'Jelly bean',
-            calories: 375,
-            fat: 0,
-            carbs: 94,
-            protein: 0,
-        },
-        {
-            name: 'Lollipop',
-            calories: 392,
-            fat: 0.2,
-            carbs: 98,
-            protein: 0,
-        },
-        {
-            name: 'Honeycomb',
-            calories: 408,
-            fat: 3.2,
-            carbs: 87,
-            protein: 6.5,
-        },
-        {
-            name: 'Donut',
-            calories: 452,
-            fat: 25,
-            carbs: 51,
-            protein: 4.9,
-        },
-        {
-            name: 'KitKat',
-            calories: 518,
-            fat: 26,
-            carbs: 65,
-            protein: 7,
-        },
+
     ]
 }
 function editItem(item) {
@@ -227,7 +214,7 @@ initialize()
                             </v-dialog>
                             <v-dialog v-model="dialogDelete" max-width="500px">
                                 <v-card>
-                                    <v-card-title class="text-h5 text-center py-6">Are you sure you want to delete this item?</v-card-title>
+                                    <v-card-title class="text-h5 text-center py-6">¿Estás seguro de que quieres eliminar este artículo?</v-card-title>
                                     <v-card-actions>
                                         <v-spacer></v-spacer>
                                         <v-btn color="error" variant="flat" dark   @click="closeDelete">Cancel</v-btn>
