@@ -8,18 +8,18 @@ import BaseBreadcrumb from '@/components/shared/BaseBreadcrumb.vue';
 import UiParentCard from '@/components/shared/UiParentCard.vue';
 import UiChildCard from '@/components/shared/UiChildCard.vue';
 // theme breadcrumb
-const page = ref({ title: 'Barra Radial' });
+const page = ref({ title: 'Dashboards' });
 const breadcrumbs = ref([
     {
-        text: 'Dashboard',
+        text: 'NoSQL',
         disabled: false,
         href: '#'
     },
-    {
-        text: 'NoSQL',
-        disabled: true,
-        href: '#'
-    }
+    // {
+    //     text: 'NoSQL',
+    //     disabled: true,
+    //     href: '#'
+    // }
 ]);
 
 const theme = useTheme();
@@ -103,17 +103,17 @@ const radarChart = {
                         <apexchart type="radialBar" height="300" :options="radialBarchartOptions" :series="radialBarChart.series">
                         </apexchart>
                     </UiChildCard>
-                <!-- </v-col> -->
+                <!-- </v-col>  -->
 
                 <!-- <v-col cols="12" lg="6"> -->
                     <!-- ---------------------------------------------------- -->
                     <!-- Radar Chart -->
                     <!-- ---------------------------------------------------- -->
-                    <!-- <UiChildCard title="Radar Chart" class="bg-surface">
+                     <!-- <UiChildCard title="Radar Chart" class="bg-surface"> 
                         <apexchart type="radar" height="300" :options="radarOptions" :series="radarChart.series"> </apexchart>
-                    </UiChildCard> -->
+                    </UiChildCard>  -->
                 <!-- </v-col> -->
             <!-- </v-row> -->
-        <!-- </v-col> -->
+         <!-- </v-col> -->
     </v-row>
 </template>

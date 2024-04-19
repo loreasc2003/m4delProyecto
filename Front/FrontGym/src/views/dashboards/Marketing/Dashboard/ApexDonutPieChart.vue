@@ -9,18 +9,18 @@ import BaseBreadcrumb from '@/components/shared/BaseBreadcrumb.vue';
 import UiParentCard from '@/components/shared/UiParentCard.vue';
 import UiChildCard from '@/components/shared/UiChildCard.vue';
 // theme breadcrumb
-const page = ref({ title: 'Graficos De Anillos' });
+const page = ref({ title: 'Dashboards' });
 const breadcrumbs = ref([
     {
-        text: 'Dashboard',
+        text: 'SQL',
         disabled: false,
         href: '#'
     },
-    {
-        text: 'SQL',
-        disabled: true,
-        href: '#'
-    }
+    // {
+    //     text: 'SQL',
+    //     disabled: true,
+    //     href: '#'
+    // }
 ]);
 
 const theme = useTheme();

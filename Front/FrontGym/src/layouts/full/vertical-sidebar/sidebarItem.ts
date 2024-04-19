@@ -122,7 +122,7 @@ const sidebarItem: menu[] = [
           to: '/dashboards/marketing/Dashboard/doughnut-pie-chart'
         },
         {
-          title: 'Dashboard NoSQL',
+          title: 'Dashboards NoSQL',
           icon: ChartRadarIcon,
           to: '/dashboards/marketing/Dashboard/radialbar-chart'
         },
