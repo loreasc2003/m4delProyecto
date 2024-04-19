@@ -64,6 +64,20 @@ const donutchartOptions = computed(() => {
                     }
                 }
             }
+        ],
+        labels: ['Ropa', 'Calzado', ' Equipos de entrenamiento', 'Accesorios de entrenamiento', ' Suplementos'],
+        responsive: [
+            {
+                breakpoint: 480,
+                options: {
+                    chart: {
+                        width: 200
+                    },
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }
         ]
     };
 });
@@ -74,6 +88,7 @@ const donutChart = {
 
 const piechartOptions = computed(() => {
     return {
+        
         chart: {
             type: 'pie',
             height: 300,
@@ -102,7 +117,7 @@ const piechartOptions = computed(() => {
         tooltip: {
             fillSeriesColor: false
         },
-        labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+        labels: ['Cinturones De Pesas', 'Pesas Libres', 'Equipos Cardiovasculares', 'Equipos De Fuerza Y Agilidad', 'Pelota Gris, Yoga'],
         responsive: [
             {
                 breakpoint: 480,
@@ -141,7 +156,7 @@ const pieChart = {
                     <!-- ---------------------------------------------------- -->
                     <!-- Pie Chart -->
                     <!-- ---------------------------------------------------- -->
-                    <UiChildCard title="Pedidos" class="bg-surface">
+                    <UiChildCard title="Más Pedidos" class="bg-surface">
                         <apexchart type="pie" height="300" :options="piechartOptions" :series="pieChart.series"> </apexchart>
                     </UiChildCard>
                 </v-col>
