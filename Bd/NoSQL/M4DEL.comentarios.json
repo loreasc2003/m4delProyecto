@@ -1,1 +1,59 @@
-[]
+[{
+  "_id": {
+    "$oid": "6621fea00e92ab1878dcaddc"
+  },
+  "usuario_id": {
+    "$oid": "610f58792c9a0d6a54b5fd67"
+  },
+  "contenido": "¡Gran artículo! ¡Totalmente de acuerdo!",
+  "fecha_creacion": {
+    "$date": "2022-08-21T15:30:00Z"
+  },
+  "me_gusta": 25,
+  "no_me_gusta": 3,
+  "respuestas": [
+    {
+      "usuario_id": {
+        "$oid": "611eb3aae2ae800f7d673e4c"
+      },
+      "contenido": "Gracias por tu comentario. ¡Nos alegra que te haya gustado!",
+      "fecha_creacion": {
+        "$date": "2022-08-21T15:45:00Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6621fea00e92ab1878dcaddd"
+  },
+  "usuario_id": {
+    "$oid": "610f58792c9a0d6a54b5fd68"
+  },
+  "contenido": "No estoy de acuerdo con el punto número 3.",
+  "fecha_creacion": {
+    "$date": "2022-08-22T09:15:00Z"
+  },
+  "me_gusta": 10,
+  "no_me_gusta": 8,
+  "respuestas": [
+    {
+      "usuario_id": {
+        "$oid": "611eb3aae2ae800f7d673e4d"
+      },
+      "contenido": "Entendemos tu perspectiva. ¡Gracias por compartir tus comentarios!",
+      "fecha_creacion": {
+        "$date": "2022-08-22T09:30:00Z"
+      }
+    },
+    {
+      "usuario_id": {
+        "$oid": "610f58792c9a0d6a54b5fd69"
+      },
+      "contenido": "Estoy de acuerdo contigo. Creo que podría haberse presentado de manera diferente.",
+      "fecha_creacion": {
+        "$date": "2022-08-22T09:40:00Z"
+      }
+    }
+  ]
+}]
