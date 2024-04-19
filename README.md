@@ -28,22 +28,23 @@
 |:------------- |:---------------:| 
 <img src="https://github.com/loreasc2003/m4delProyecto/assets/163441777/75e27319-c2da-456b-8fc0-9bf3d29f6567" width="400" height="400">|<img src="https://github.com/loreasc2003/m4delProyecto/assets/163441777/011fced5-cb82-4bc5-9c0f-4397029d7097" width="400" height="300">|
   
-</div>
-
+</div
+  
+<br>
 
 ## **M4DEL**
 ### Organigrama del equipo
 <br>
 
-![Organigrama_M4DEL](https://github.com/loreasc2003/m4delProyecto/assets/163441777/5549e849-4f4c-4b5c-936e-56c0dedae482)
+![Organigrama_M4DEL](https://github.com/loreasc2003/m4delProyecto/assets/163441777/116a9b1f-9652-481a-b90c-f9f1e38ce9ac)
 <h3 align="center">Responsables </h3>
 <br>
 <div align="center">
   
 | Nombre  | Cargo  | Empresa |
 |:------------- |:---------------:| -------------:|
-|MARÍA LORENA ASCENSIÓN ANDRÉS |Líder de proyecto/Desarrollador Frontend|M4DEL|
-|DULCE ESMERALDA HERNÁNDEZ JUÁREZ |Desarrollador Backend|M4DEL|
+|MARÍA LORENA ASCENSIÓN ANDRÉS |Líder de proyecto/Desarrollador Backend |M4DEL|
+|DULCE ESMERALDA HERNÁNDEZ JUÁREZ |Desarrollador Frontend |M4DEL|
 |EDGAR PÉREZ GARRIDO |DB Manager|M4DEL|
 |LUZ ADRIANA REYES GONZÁLEZ|Documentador|M4DEL|
 
