@@ -7,7 +7,7 @@ import UserImage from '@/assets/images/profile/user-1.jpg';
 const tab = ref(null);
 const items = shallowRef([
     { tab: 'Perfil', icon: UserCircleIcon, href: '/apps/user/profile' },
-    { tab: 'Followers', icon: HeartIcon, href: '/apps/user/profile/followers' },
+    { tab: 'Seguidores', icon: HeartIcon, href: '/apps/user/profile/followers' },
     { tab: 'Amigos', icon: UsersIcon, href: '/apps/user/profile/friends' },
     { tab: 'Galeria', icon: PhotoIcon, href: '/apps/user/profile/gallery' }
 ]);
@@ -31,12 +31,12 @@ const items = shallowRef([
                             <v-col cols="4" class="text-center">
                                 <UserCircleIcon size="20" />
                                 <h4 class="text-h4">31,586</h4>
-                                <h6 class="text-h6 font-weight-regular">Followers</h6>
+                                <h6 class="text-h6 font-weight-regular">Seguidores</h6>
                             </v-col>
                             <v-col cols="4" class="text-center">
                                 <UserCheckIcon size="20" />
                                 <h4 class="text-h4">2,659</h4>
-                                <h6 class="text-h6 font-weight-regular">Following</h6>
+                                <h6 class="text-h6 font-weight-regular">Siguiendo</h6>
                             </v-col>
                         </v-row>
                     </div>
@@ -66,7 +66,7 @@ const items = shallowRef([
                         <v-btn icon variant="flat" size="x-small" color="primary" class="btn-brand-youtube"
                             ><BrandYoutubeIcon size="16"
                         /></v-btn>
-                        <v-btn variant="flat" color="primary">Add to Story</v-btn>
+                        <v-btn variant="flat" color="primary">Agregar Historia</v-btn>
                     </div>
                 </v-col>
                 <v-col md="12" class="order-sm-last">
